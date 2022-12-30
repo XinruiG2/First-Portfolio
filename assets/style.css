@@ -38,3 +38,9 @@ body {
     max-width: var(--container);
     margin-inline: auto;
 }
+
+@media (min-width: 37.5rem) {
+    .wrapper {
+        width: calc(100% - 3.75rem); /* tablet view */
+    }
+}
