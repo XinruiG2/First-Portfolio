@@ -394,7 +394,8 @@ a:hover {
 }
 
 .projects_wrapper {
-    padding-block: 67px;
+    padding-top: 67px;
+    padding-bottom: 42px;
 }
 
 .projects_grid {
@@ -446,7 +447,8 @@ a:hover {
 
 @media (min-width: 37.5em) {
     .projects_wrapper {
-        padding-block: 110px;
+        padding-top: 110px;
+        padding-bottom: 85px;
     }
 
     .projects_headline {
@@ -543,13 +545,23 @@ a:hover {
 
 /* CONTACT */
 .contact {
-    background-color: hwb(0 18% 82%);
+    background: linear-gradient(var(--primary-bg), 
+                                    hwb(0 0% 100% / 0.4)), 
+                                    url(/assets/images/contact-flowers-transparent.png) 
+                                    no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(12, 12, 12);
+    padding-bottom: 18px;
 }
 
 .contact_wrapper {
-    padding-top: 72px;
+    padding-top: 0;
     padding-bottom: 65px;
     max-width: 27.8rem;
+}
+
+.contact_grid {
+    padding-top: 75px;
 }
 
 .contact_text {
@@ -559,14 +571,6 @@ a:hover {
 .contact_headline {
     margin: 0;
     margin-block-end: 37px;
-}
-
-.contact_description {
-
-}
-
-.contact_form {
-    
 }
 
 .contact_control {
