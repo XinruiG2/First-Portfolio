@@ -649,9 +649,6 @@ textarea:invalid {
                                     hwb(0 0% 100% / 0.4)), 
                                     url(/assets/images/contact-flowers-transparent.png) 
                                     no-repeat;
-                                    /*
-        background-image: url(/assets/images/contact-flowers.jpeg);
-        background-repeat: no-repeat; */
         background-size: 50% 100%;
         background-color: rgb(12, 12, 12);
     }
