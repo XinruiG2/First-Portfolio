@@ -65,8 +65,8 @@
                     <div class="hero_text">
                         <h1 class="hero_headline header-xl">Hello! My name is Xinrui Ge.</h1>
                         <p class="hero_description">
-                            Based in NY, I am a full-stack developer who is passionate about building
-                            well-designed and accessible webpages users love.
+                            Based in NY, I am a full-stack developer. This is a theoretical portfolio 
+                            website I created using HTML and CSS.
                         </p>
                         <a href="https://www.linkedin.com/" target="_blank" class="hero_contact underline">CONTACT ME</a>
                     </div>
@@ -242,7 +242,57 @@
 
             <section class="contact">
                 <div class="wrapper contact_wrapper">
-                    
+                    <div class="contact_grid">
+                        <div class="contact_text">
+                            <h2 class="contact_headline header-xl">Contact</h2>
+                            <p class="contact_description">
+                                I would love to hear about your projects and how I could help!
+                                Please fill out the form and I'll get back to you as soon as possible.
+                            </p>
+                        </div>
+                        <form action="" class="contact_form">
+                            <div class="contact_control">
+                                <label for="name" class="visuallyhidden">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                                <img 
+                                    src="/assets/images/invalid-field.svg" 
+                                    alt="" 
+                                    class="invalid_icon"
+                                    width="24"
+                                    height="24">
+                            </div>
+                            <div class="contact_control">
+                                <label for="email" class="visuallyhidden">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                                <img 
+                                    src="/assets/images/invalid-field.svg" 
+                                    alt="" 
+                                    class="invalid_icon"
+                                    width="24"
+                                    height="24">
+                            </div>
+                            <div class="contact_control">
+                                <label for="message" class="visuallyhidden">Message</label>
+                                <textarea 
+                                    name="message" 
+                                    id="message" 
+                                    cols="30" 
+                                    rows="10"
+                                    placeholder="Message"
+                                    required 
+                                ></textarea>
+                                <img 
+                                    src="/assets/images/invalid-field.svg" 
+                                    alt="" 
+                                    class="invalid_icon"
+                                    width="24"
+                                    height="24">
+                            </div>
+                            <div class="contact_control align_right">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
